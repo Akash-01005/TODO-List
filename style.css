@@ -1,0 +1,83 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+/* body{
+    background: linear-gradient(160deg,#32de84,#ffff);
+} */
+.container{
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container2{
+    height:60vh;
+    display: flex;
+    justify-content: center;
+}
+.tasks{
+    background-color: aliceblue;
+    width: 400px;
+    height: fit-content;
+    border-radius: 15px;
+    padding: 40px;
+    display: none;
+}
+.todo{
+   background-color: aliceblue;
+   width: fit-content;
+   width: 400px;
+   height: 120px;
+   border-radius: 15px;
+}
+.todo h2{
+    text-align: center;
+    font-size: 30px;
+    margin-top: 20px;
+}
+.row{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+input{
+    height: 20px;
+    width: 200px;
+    border-radius: 12px;
+    padding: 15px;
+    margin-right: 5px;
+    outline: none;
+    border: none;
+}
+.btn{
+    padding: 2px;
+    width: 80px;
+    font-size: 20px;
+    border-radius: 15px;
+    border: none;
+    background-color: #32de84;
+    color: #ffff;
+    cursor: pointer;
+}
+ 
+ul li{
+    list-style: none;
+    font-size: 17px;
+    padding: 12px 8px 12px 50px;
+    user-select: none;
+    cursor: pointer;
+}
+/* ul li::before{
+    content: "";
+    position:fixed;
+    height: 22px;
+    width: 22px;
+    border-radius: 50%;
+} */
+
+ul li span{
+    margin-left: 220px;
+}
